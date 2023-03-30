@@ -57,6 +57,19 @@ button.normal {
   transition: 0.2s;
 }
 
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #ffffff;
+  background-color: transparent;
+
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
+
 body {
   width: 100%;
 }
@@ -278,9 +291,9 @@ body {
   text-align: center;
   background-image: url("../images/plant-banner.avif");
   width: 100%;
-  height: 15vh;
+  height: 40vh;
   background-size: cover;
-  background-position: cetner;
+  background-position: center;
 }
 
 #banner h4 {
@@ -301,4 +314,52 @@ body {
 #banner button:hover {
   background: #088178;
   color: #fff;
+}
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  background-image: url("../images/plant-banner.avif");
+  width: 580;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+  background-image: url("../images/plant-banner.avif");
+}
+
+#sm-banner h4 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner h2 {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner span {
+  color: #524a4a;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+  background: #088178;
+  border: 1px solid #088178;
 }
